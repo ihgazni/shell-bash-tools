@@ -28,3 +28,9 @@ rm -r var/snap
 rm -r var/cache/snapd
 
 apt autoremove --purge snapd
+apt-get autoclean
+apt-get clean
+apt-get install libapr1*
+apt-get install libaprutil1*
+apt-get install libserf-1-1* libsvn1*
+#remove snap
