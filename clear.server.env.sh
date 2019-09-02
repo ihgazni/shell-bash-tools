@@ -27,3 +27,4 @@ rm -r  var/lib/snapd/
 rm -r var/snap
 rm -r var/cache/snapd
 
+apt autoremove --purge snapd
